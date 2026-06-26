@@ -6,7 +6,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(640, 360, WEBGL);
+  createCanvas(860, 470, WEBGL);
   noStroke();
   background(0);
 
