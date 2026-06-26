@@ -8,6 +8,7 @@ function preload() {
 function setup() {
   createCanvas(600, 600, WEBGL);
   noStroke();
+  background(0);
 
   shaderTexture = createGraphics(30, 500, WEBGL);
   shaderTexture.noStroke();
